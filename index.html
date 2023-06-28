@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <div class="container">
+        <a href="Home.html">
+            <span class="text first-text">I am:</span>
+            <span class="text sec-text">Hamud Mohamud</span>
+        </a>
+    </div>
+    <script>
+        const text = document.querySelector(".sec-text");
+        
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Hamud Mohamud";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "A Software Engineer";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "A Student At  Springboard";
+            }, 8000);
+        }
+        textLoad();
+    </script>
+    <div id="click-me">
+        <h1>click up above</h1>
+    </div>
+</body>
+</html> 
+

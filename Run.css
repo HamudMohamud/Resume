@@ -1,0 +1,422 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: gray;
+}
+
+.portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.protfolio-images-background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo-wrapper1 {
+    height: 150px;
+    color: red;
+    font-size: 190px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+.logo-wrapper2 {
+    color: rgb(36, 149, 186);
+    font-size: 100px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+
+.logo-wrapper3 {
+    font-size: 100px;
+    width: 50px;
+    color: yellow;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.img-text-wrapper .subtitle1 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle1 {
+    font: 600;
+    color: yellow;
+}
+
+.img-text-wrapper .subtitle2 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle2 {
+    font-size: 600;
+    color: green;
+}
+
+.img-text-wrapper .subtitle3 {
+    transition: 1s;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper:hover .subtitle3 {
+    font-size: 600;
+    color: red;
+    
+}
+
+.img-text-wrapper .subtitle4 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle4 {
+    font-size: 600;
+    color: rgb(130, 130, 239);
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper .subtitle5 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle5 {
+    font-size: 600;
+    color: purple;
+}
+
+.img-text-wrapper .subtitle6 {
+    transition: 1s;
+    color: transparent;
+    margin-bottom: 20px;
+}
+
+.img-text-wrapper:hover .subtitle6 {
+    font-size: 600;
+    color: #f9004d;
+}
+
+.img-text-wrapper .subtitle7 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle7 {
+    font-size: 600;
+    color: yellow;
+}
+
+.img-text-wrapper .subtitle8 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle8 {
+    font-size: 600;
+    color: rgb(95, 95, 190);
+}
+
+.img-text-wrapper .subtitle9 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle9 {
+    font-size: 600;
+    color: rgb(23, 123, 209);
+}
+
+.img-text-wrapper .subtitle10 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle10 {
+    font-size: 600;
+    color: rgb(102, 199, 251);
+}
+
+
+.img-text-wrapper .subtitle11 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle11 {
+    font-size: 600;
+    color: rgb(100, 207, 51);
+}
+
+
+.img-text-wrapper .subtitle12 {
+    transition: 1s;
+    color: transparent;
+}
+
+.img-text-wrapper:hover .subtitle12 {
+    font-size: 600;
+    color: rgb(232, 126, 27);
+}
+
+
+.logo-wrapper5 {
+    font-size: 100px;
+    width: 50px;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+.logo-wrapper6 {
+    height: 150px;
+    color: red;
+    font-size: 190px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.logo-wrapper7 {
+    height: 150px;
+    color: yellow;
+    font-size: 190px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.logo-wrapper8 {
+    height: 150px;
+    color: white;
+    font-size: 190px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 200px;
+}
+
+.logo-wrapper4 {
+    font-size: 150px;
+    width: 50px;
+    color: yellow;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.logo-wrapper9 {
+    height: 150px;
+    color: rgb(61, 128, 210);
+    font-size: 190px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+
+.logo-wrapper10 {
+    height: 150px;
+    color: rgb(80, 173, 204);
+    font-size: 190px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 150px;
+}
+
+.logo-wrapper11 {
+    height: 150px;
+    color: rgb(93, 162, 236);
+    font-size: 150px;
+    width: 250px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+
+.logo-wrapper12 {
+    height: 150px;
+    color: orangered;
+    font-size: 150px;
+    width: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.logo-wrapper13 {
+    height: 150px;
+    color: red;
+    font-size: 150px;
+    margin-bottom: 50px;
+}
+
+.brand {
+    font-size: 40px;
+    margin-right: 545px;
+    text-decoration: underline;
+}
+
+.img-darken {
+    transform: 1s;
+    filter: brightness(10%);
+}
+
+.active-nav-link {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.active-nav-link a {
+    color: #8a8a8a !important;
+}
+
+.spring {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5;
+}
+
+.spring a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    
+}
+
+.spring:hover {
+    border-bottom: 1px solid black;
+}
+
+.spring a:hover {
+    border-bottom: 1px solid black;
+}
+
+.spring a:hover {
+    color: gray;
+}
+
+.github {
+    color: #8a8a8a;
+    
+}
+
+.github:hover {
+    color: #f9004d;
+}
+
+.linkedin {
+    color: #8a8a8a;
+}
+
+.linkedin:hover {
+    color: #f9004d;
+}
+
+.github {
+    position: absolute;
+    color: #8a8a8a;
+    left: 89%;
+    top: 55px;
+
+}
+
+.linkedin {
+    position: absolute;
+    color: #8a8a8a;
+    left: 85%;
+    top: 55px;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Styles for small devices */
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium devices */
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* Styles for large devices */
+  }

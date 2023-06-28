@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand {
+    color: #8a8a8a;
+    text-transform: uppercase;
+    text-decoration: underline #f9004d;
+    font-size: 45px;
+    margin-right: 440px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #f9004d;
+}
+
+.nav-link-wrapper a:hover {
+    border-bottom: 1px solid #f9004d;
+}
+
+.nav-link-wrapper a:hover {
+    color: #f9004d;
+}
+
+.about {
+    margin-top: 20px;
+    color:#8a8a8a;
+    border-radius: 30px;
+    border: solid 1px #f9004d;
+    padding: 5px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.text {
+    color: rgb(255, 254, 254);
+}
+
+.text2 h1{
+    position: relative;
+    color: #f9004d;
+    bottom: 20px;
+    left: 80px;
+}
+
+.new {
+    position: relative;
+    bottom: 35px;
+    left: 230px;
+    font-family: monospace;
+    color: #f9004d;
+}
+.new span {
+    color: #f9004d;
+} 
+p{
+    color: #f9004d;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid #f9004d;
+}
+
+.active-nav-link a {
+    color: #f9004d !important;
+}
+
+
+.spring {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5;
+}
+
+.spring a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    
+}
+
+.spring:hover {
+    border-bottom: 1px solid #f9004d;
+}
+
+.spring a:hover {
+    border-bottom: 1px solid #f9004d;
+}
+
+.spring a:hover {
+    color: #f9004d;
+}
+
+
+#github {
+    position: absolute;
+    color: #8a8a8a;
+    left: 89%;
+    top: 70px;
+
+}
+
+#linkedin {
+    position: absolute;
+    color: #8a8a8a;
+    left: 85%;
+    top: 70px;
+}
+
+#github:hover {
+    color: #f9004d;
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    color: #f9004d;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+    /* Styles for small devices */
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium devices */
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* Styles for large devices */
+  }

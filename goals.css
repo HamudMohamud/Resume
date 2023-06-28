@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.brand {
+    text-transform: uppercase;
+    color: #8a8a8a;
+    position: absolute;
+    right: 35%;
+    font-size: 40px;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;#fff
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover  {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper:hover  {
+    border-bottom: 1px solid #f9004d;
+}
+
+.nav-link-wrapper a:hover  {
+    border-bottom: 1px solid #f9004d;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid #f9004d;
+}
+
+.active-nav-link a {
+    color: #f9004d !important;
+}
+
+p {
+    color: #f9004d;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.github {
+    position: absolute;
+    color: #8a8a8a;
+    left: 89%;
+    top: 60px;
+}
+
+.linkedin {
+    position: absolute;
+    color: #8a8a8a;
+    left: 85%;
+    top: 60px;
+}
+
+.github:hover {
+    color: #f9004d;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    color: #f9004d;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* Styles for small devices */
+  }
+  
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for medium devices */
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    /* Styles for large devices */
+  }
